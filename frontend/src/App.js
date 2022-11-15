@@ -1,11 +1,18 @@
-
 import './App.css';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import LandingPage from './screens/landingPage/LandingPage';
+
 
 const App = () => {
   return (
-    <div className="App">
-      Hello world!
-    </div>
+    <>
+      <Header />
+      <main>
+        <LandingPage></LandingPage>
+      </main>
+      <Footer />
+    </>
   );
 }
 
